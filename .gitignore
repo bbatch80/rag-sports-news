@@ -12,7 +12,7 @@ env/
 .venv/
 
 # ChromaDB local storage
-chroma_db/
+# chroma_db/
 
 # IDE
 .vscode/

@@ -28,11 +28,17 @@ class Article:
 
 # RSS feed URLs - these are public feeds from major sports sites
 RSS_FEEDS = {
+    # CBS Sports - these work well (server-rendered content)
+    "cbs_sports": "https://www.cbssports.com/rss/headlines/",
+    "cbs_nba": "https://www.cbssports.com/rss/headlines/nba/",
+    "cbs_nfl": "https://www.cbssports.com/rss/headlines/nfl/",
+    "cbs_ncaam": "https://www.cbssports.com/rss/headlines/college-basketball/",
+    # ESPN - often blocked (JavaScript-rendered)
     "espn": "https://www.espn.com/espn/rss/news",
     "espn_nfl": "https://www.espn.com/espn/rss/nfl/news",
     "espn_nba": "https://www.espn.com/espn/rss/nba/news",
+    # BBC Sport - international focus
     "bbc_sport": "https://feeds.bbci.co.uk/sport/rss.xml",
-    "cbs_sports": "https://www.cbssports.com/rss/headlines/",
 }
 
 # Headers needed for some feeds that block basic requests
