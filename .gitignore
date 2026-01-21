@@ -11,8 +11,8 @@ venv/
 env/
 .venv/
 
-# ChromaDB local storage (commented out for demo deployment)
-# chroma_db/
+# ChromaDB local storage
+chroma_db/
 
 # IDE
 .vscode/
