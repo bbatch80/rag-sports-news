@@ -104,7 +104,7 @@ with st.sidebar:
 # Main chat interface
 question = st.text_input(
     "Ask a question about sports news:",
-    placeholder="Who was elected to the Baseball Hall of Fame?",
+    placeholder="What happened to Jimmy Butler?",
 )
 
 if st.button("Ask", type="primary") or (question and st.session_state.get("last_question") != question):
@@ -145,9 +145,9 @@ if st.button("Ask", type="primary") or (question and st.session_state.get("last_
 st.divider()
 st.subheader("Try these example questions:")
 examples = [
-    "Who was elected to the Baseball Hall of Fame this year?",
-    "What's happening with the NCAA lawsuit?",
-    "Where can I watch UFC fights?",
+    "What happened to Jimmy Butler?",
+    "Who is ranked #1 in college basketball?",
+    "What NFL coaching changes are happening?",
 ]
 
 cols = st.columns(len(examples))
